@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2 class="text-danger fw-bold mb-4">Contactez-nous</h2>
+        @if (TempData["MessageSent"] != null)
+        {
+            <div class="alert alert-success">@TempData["MessageSent"]</div>
+        }
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" name="name" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea name="message" class="form-control" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn text-white" style="background-color:#006400;">Envoyer</button>
+        </form>
+    </div>
+</div>

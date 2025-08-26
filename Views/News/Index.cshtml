@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Actualités & Agenda";
+    var newsList = Model as List<string>;
+}
+
+<h2 class="text-success">Actualités & Agenda</h2>
+<ul class="list-group mt-4">
+    @foreach (var item in newsList)
+    {
+        <li class="list-group-item">
+            <i class="bi bi-calendar-event text-danger"></i> @item
+        </li>
+    }
+</ul>

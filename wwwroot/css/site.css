@@ -1,0 +1,503 @@
+﻿/* Body */
+body {
+    background-color: #fff;
+    color: #006400; /* dark green text default */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* professional sans-serif */
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-top: 2px; /* for fixed navbar */
+}
+/* Contact Section */
+#contact h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#contact p {
+    font-size: 1rem;
+}
+
+#contact .form-control,
+#contact .form-select,
+#contact textarea {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+    #contact .form-control:focus,
+    #contact .form-select:focus,
+    #contact textarea:focus {
+        border-color: #B22222; /* red */
+        box-shadow: 0 0 5px rgba(178,34,34,0.4);
+    }
+
+/* Red Button */
+.btn-red {
+    background-color: #B22222;
+    color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#btn btn-green btn-lg{
+    color:white
+}
+.btn-red:hover {
+    background-color: #C0392B;
+    transform: scale(1.02);
+}
+
+section p {
+    text-align: justify;
+    font-family: 'Sans Serif Collection' ; /* keep same sans-serif */
+    font-size: 1.05rem;
+    color: #333; /* readable dark gray */
+}
+h1, h3, h4, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    color: #006400;
+}
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*.navbar-nav .nav-link {
+    color: #006400;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+*/
+    .navbar-nav .nav-link:hover {
+        background-color: #A5D6A7; /* light green hover */
+        color: #004d00;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: #006400;
+        font-weight: bold;
+       background-color:#2E8B57; 
+       border-radius:30px;
+       padding:8px 20px ;
+    }
+
+.btn-red {
+    background-color: #C0392B;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+    .btn-red:hover {
+        background-color: #B22222;
+        color: #fff;
+    }
+
+.btn-green {
+    background-color: #2ECC71;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+    .btn-green:hover {
+        background-color: #006400;
+        color: #fff;
+    }
+
+
+/* Links */
+a, a:hover {
+    text-decoration: none;
+}
+.navbar .nav-link {
+    color: black !important;
+}
+
+
+/* Navbar links */
+/* Navbar links */
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+section p {
+    text-align: justify; /* Justifier le texte */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police professionnelle */
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #333; /* couleur lisible */
+}
+h2 {
+    font-family: 'Georgia', serif; /* un style sérieux et élégant */
+}
+
+    /* Active link (clicked/current section) */
+.navbar-nav .nav-link.active {
+    color: #006400;
+    font-weight: bold;
+    background-color: #2E8B57;
+    border-radius: 50px;
+    padding: 8px 20px;
+}
+/* Pillar icon wrapper */
+.icon-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    border-radius: 50%;
+    border: 3px solid #006400; /* Green border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+/* Pillar icons */
+.pillar-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white; /* green color for all icons */
+}
+
+    /* Optional gradient for extra effect */
+    .pillar-icon.green {
+        background: linear-gradient(135deg, #2ECC71 0%, #006400 100%);
+        color: white; /* white icon inside gradient */
+    }
+
+/* Specific icon color (if using <i> tags) */
+.icon-wrapper i {
+    color: white !important; /* forces all icons to green */
+}
+
+
+
+    /* Hover effect (optional) */
+    .navbar-nav .nav-link:hover {
+        background-color: #A5D6A7; /* slightly darker light green on hover */
+        color: #004d00;
+    }
+
+
+/* Buttons */
+.btn-red {
+    background-color: #C0392B;
+    color: #fff;
+}
+
+    .btn-red:hover {
+        background-color: #B22222;
+        color: #fff;
+    }
+
+.btn-green {
+    background-color: #2ECC71;
+    color: #fff;
+}
+
+    .btn-green:hover {
+        background-color: #006400;
+        color: #fff;
+    }
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Text colors */
+.text-red {
+    color: #B22222 !important;
+}
+
+.text-green {
+    color: #006400 !important;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(178,34,34,0.8), rgba(0,100,0,0.8)), url('/img/academy-bg.jpg') center/cover no-repeat;
+}
+
+    #hero .btn {
+        margin-top: 1rem;
+    }
+
+/* Pillar Cards */
+.pillar-card {
+    border: 3px solid #000 !important; /* bold black border */
+    border-radius: 14px;
+    background: #fff;
+    padding-top: 50px; /* leave space for icon inside */
+    transition: transform .38s cubic-bezier(.2,.9,.3,1), box-shadow .38s;
+    overflow: visible; /* allow icon to overflow top */
+    color: #000 !important; /* force black text inside */
+}
+
+    /* Card titles and text */
+    .pillar-card .pillar-title,
+    .pillar-card .pillar-text {
+        color: #000 !important; /* black text for title and body */
+    }
+
+/* Icon wrapper */
+.icon-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    border-radius: 50%;
+    border: 3px solid #000; /* bold black border around icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+/* Optional: Pillar icons colors stay the same */
+
+
+
+
+/* ---------- Pillars styles ---------- */
+
+#pillars {
+    background-color: #ffffff;
+}
+
+/* card container */
+.pillar-card {
+    border-radius: 14px;
+    background: #fff;
+    padding-top: 50px; /* leave space for icon inside */
+    transition: transform .38s cubic-bezier(.2,.9,.3,1), box-shadow .38s;
+    overflow: visible; /* allow icon to overflow top */
+
+}
+
+    /* hover elevate */
+    .pillar-card:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 18px 40px rgba(2,86,6,0.08);
+    }
+
+/* Icon wrapper positions icon half-inside card */
+.icon-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 84px;
+    height: 84px;
+    background: #fff;
+    border-radius: 50%;
+    border: 3px solid #006400; /* border line effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+/* Pillar icons */
+.pillar-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+    
+
+    .pillar-icon.green {
+        background: linear-gradient(135deg, #2ECC71 0%, #006400 100%);
+    }
+
+   
+/* Hover icon effect */
+.pillar-card:hover .pillar-icon {
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* Titles and text */
+
+
+
+/* Spacing between columns */
+#pillars .row > [class*='col-'] {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767.98px) {
+    .icon-wrapper {
+        width: 70px;
+        height: 70px;
+    }
+
+    .pillar-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .pillar-card {
+        padding-top: 45px;
+    }
+}
+
+
+
+
+
+.join-btn {
+    background-color: #2E8B57; /* vert foncé */
+    color: white !important; /* texte blanc forcé */
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* petite ombre */
+}
+
+    .join-btn:hover {
+        background-color: #246b45; /* plus sombre au hover */
+        color: white !important; /* texte reste blanc */
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* glow léger */
+        text-decoration: none;
+    }
+
+
+
+/* Mission & Vision Cards */
+#mission-vision .card {
+    border-radius: 20px;
+    padding: 30px;
+    color: #000;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease, opacity 0.6s ease;
+    opacity: 0; /* initially hidden for fade-in */
+    transform: translateY(30px); /* start slightly down */
+}
+
+    /* Hover effect */
+    #mission-vision .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+
+/* Mission card styling */
+#mission {
+    border: 4px solid #2E8B57; /* green border */
+    background-color: rgba(46,139,87,0.1);
+}
+
+    #mission i {
+        font-size: 3rem;
+        color: #2E8B57;
+    }
+
+/* Vision card styling */
+#vision {
+    border: 4px solid #B22222; /* red border */
+    background-color: rgba(178,34,34,0.1);
+}
+
+    #vision i {
+        font-size: 3rem;
+        color: #B22222;
+    }
+
+/* Fade-in visible */
+#mission-vision .card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Mission & Vision Cards */
+#mission-vision .card {
+    border: 4px solid #006400; /* bold green border */
+    border-radius: 20px;
+    background-color: rgba(46,139,87,0.1); /* slightly stronger soft green */
+    padding: 30px;
+    color: #000; /* black text */
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+    opacity: 1; /* show immediately */
+    transform: translateY(0); /* no initial offset */
+}
+
+    /* Hover effect: gentle scale + subtle shadow */
+    #mission-vision .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+        background-color: rgba(46,139,87,0.2); /* highlight */
+    }
+
+/* Card titles & text */
+#mission-vision .card-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #006400; /* strong green */
+    text-align: center;
+}
+
+#mission-vision .card-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #000; /* black for maximum readability */
+    text-align: justify;
+}
+
+/* Optional: make card icons bigger and more visible */
+#mission-vision .card i {
+    font-size: 3rem; /* bigger icon */
+    color: #006400; /* green icon */
+    margin-bottom: 10px;
+}
