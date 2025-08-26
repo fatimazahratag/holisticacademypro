@@ -18,7 +18,6 @@ namespace HolesticAcademyProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Contact(string name, string email, string message)
         {
-            // pas de DB, tu peux logguer ou envoyer par mail plus tard
             Console.WriteLine($"Message reçu de {name} ({email}): {message}");
             TempData["MessageSent"] = "Merci, votre message a été envoyé.";
             return RedirectToAction(nameof(Contact));

@@ -17,7 +17,6 @@ namespace HolesticAcademyProject.Controllers
 
         public IActionResult Details(int id)
         {
-            // phase 2 : détails d’une actualité
             return View();
         }
     }

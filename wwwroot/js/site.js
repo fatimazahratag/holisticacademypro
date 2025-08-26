@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         cards.forEach(c => obs.observe(c));
     } else {
-        // fallback: show all
         cards.forEach(c => c.classList.add('in-view'));
     }
 });
