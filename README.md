@@ -12,6 +12,8 @@ HolesticAcademyProject — ASP.NET Core MVC site for Holistic Health Academy. A 
 - **Repo name:** `HolesticAcademyProject`
 
 ---
+## Demo
+▶️ [Watch Demo Video](https://drive.google.com/file/d/1LAyJVCocassvr0tBXoUDXim2qumh5_Dd/view?usp=sharing)
 
 ## Short commands
 
@@ -27,6 +29,5 @@ dotnet run
 
 # Publish (release) to folder
 dotnet publish -c Release -o ./publish
+---
 
-# Demo
-▶️ [Watch Demo Video](https://drive.google.com/file/d/1LAyJVCocassvr0tBXoUDXim2qumh5_Dd/view?usp=sharing)
